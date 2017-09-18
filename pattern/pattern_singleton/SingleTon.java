@@ -2,7 +2,7 @@ package pattern_singleton;
 
 public class SingleTon {
 
-	public static volatile SingleTon instance = null;
+	public static volatile SingleTon instance;
 	
 	private SingleTon(){
 		
